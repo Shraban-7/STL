@@ -1,0 +1,1 @@
+#include<iostream>using namespace std;class Khata{public:    int price=25;    void display()    {        cout<<"Price ="<<price;    }};class Pen:public Khata{};int main(){    Pen i;    i.display();    return 0;}
