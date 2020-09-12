@@ -14,7 +14,6 @@ int main()
      cout<<"Enter keys ,x to stop.\n";
      do
      {
-         
          cout<<":";
          cin>>ch;
      }while(ch!='x');
